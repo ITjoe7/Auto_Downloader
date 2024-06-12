@@ -1,0 +1,5 @@
+option batch on
+option confirm off
+open sftp://jgministop_ph_sftp:LwWzU1P8pwAS9Ozg@ftp2-dhllink.dhl.com/
+get -delete /out/* "C:\Users\Joren\Auto_Downloader\Saved_File\"
+exit
